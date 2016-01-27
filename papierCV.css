@@ -1,0 +1,52 @@
+/*tout/global*/
+
+.titre_de_partie{
+    color:#008090;
+    text-decoration:underline;
+    font-family:courier,cursive;
+    margin-left:20px;
+    font-size:26px;
+} 
+
+h1{
+    font-family:Georgia,Arial;
+}
+
+/*footer*/
+
+footer ul>p{
+    font-size:18px;
+    text-decoration:underline;
+    margin-left:-35px;
+}
+footer p{
+    font-family:Verdana;
+    font-size:14;
+}
+
+footer ul li p span {
+    text-decoration:underline;
+}
+
+footer h3{
+    font-size:12px;
+    font-family:sans-serif;
+    clear:right;
+    float:right;
+}
+
+footer h3 span{
+    text-decoration:underline;
+}
+
+footer ul{
+    float:left;
+    margin-top:-25px;
+    margin-left:20px;
+}
+
+#carte{
+    width:50%;
+    float:left;
+    margin-top:-1px;
+}
