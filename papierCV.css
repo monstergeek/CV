@@ -1,11 +1,18 @@
 /*tout/global*/
+body{
+    background-image:url(http://static1.squarespace.com/static/54e1eb34e4b00603728efcdd/54f5e15ee4b09f40436d39cd/54f5e181e4b09f40436d3d22/1425400341137/congruent_pentagon-subtle_patterns.png)
+}
+
+.partie{
+    padding:10px 10px 10px 10px;
+}
 
 .titre_de_partie{
     color:#008090;
     text-decoration:underline;
     font-family:courier,cursive;
     margin-left:20px;
-    font-size:26px;
+    font-size:32px;
 } 
 
 h1{
@@ -17,7 +24,7 @@ h1{
 footer ul>p{
     font-size:18px;
     text-decoration:underline;
-    margin-left:-10%;
+    margin-left:-20px;
 }
 footer p{
     font-family:Verdana;
@@ -47,7 +54,7 @@ footer ul{
     margin-top:-10px;
 }
 
-footer img{
+#carte{
     width:50%;
     float:left;
 }
