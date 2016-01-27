@@ -3,8 +3,20 @@ body{
     background-image:url(http://static1.squarespace.com/static/54e1eb34e4b00603728efcdd/54f5e15ee4b09f40436d39cd/54f5e181e4b09f40436d3d22/1425400341137/congruent_pentagon-subtle_patterns.png)
 }
 
+.haut_de_page{
+    background-color:#505050;text-align:center;border-radius:30%;
+    width:105%;height:70px;
+    padding-top:80px;margin-top:-90px;
+    font-size:40px;font-family:Impact;
+    position:fixed;
+}
+
+.booter{
+    height:20px;
+}
+
 .partie{
-    padding:10px 10px 10px 10px;
+    padding:10px ;
 }
 
 .titre_de_partie{
@@ -15,46 +27,46 @@ body{
     font-size:32px;
 } 
 
-h1{
-    font-family:Georgia,Arial;
-}
 
 /*footer*/
 
-footer ul>p{
-    font-size:18px;
-    text-decoration:underline;
-    margin-left:-20px;
-}
 footer p{
     font-family:Verdana;
 }
 
-footer ul li p span {
+footer ul{
+    float:right;
+    width:40%;
+    position: absolute;
+    margin-left:50%;
+    margin-top:-20px;
+}
+
+footer img{
+    width:50%;
+    float:left;
+    border:4px solid #0099CC;
+    border-radius:15%;
+}
+
+.titre_des_infos{
+    font-size:18px;
+    text-decoration:underline;
+    margin-left:-20px;
+}
+
+.info {
     text-decoration:underline;
 }
 
-footer  h3{
+.P_S{
     font-size:12px;
     font-family:sans-serif;
     clear:left;
     width:50%;
+    padding-top:20px;
 }
 
-footer h3 span{
+.ps{
     text-decoration:underline;
-}
-
-
-footer ul{
-    float:right;
-    width:50%;
-    position: absolute;
-    margin-left:50%;
-    margin-top:-10px;
-}
-
-#carte{
-    width:50%;
-    float:left;
 }
