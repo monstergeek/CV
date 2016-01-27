@@ -17,36 +17,37 @@ h1{
 footer ul>p{
     font-size:18px;
     text-decoration:underline;
-    margin-left:-35px;
+    margin-left:-10%;
 }
 footer p{
     font-family:Verdana;
-    font-size:14;
 }
 
 footer ul li p span {
     text-decoration:underline;
 }
 
-footer h3{
+footer  h3{
     font-size:12px;
     font-family:sans-serif;
-    clear:right;
-    float:right;
+    clear:left;
+    width:50%;
 }
 
 footer h3 span{
     text-decoration:underline;
 }
 
+
 footer ul{
-    float:left;
-    margin-top:-25px;
-    margin-left:20px;
+    float:right;
+    width:50%;
+    position: absolute;
+    margin-left:50%;
+    margin-top:-10px;
 }
 
-#carte{
+footer img{
     width:50%;
     float:left;
-    margin-top:-1px;
 }
