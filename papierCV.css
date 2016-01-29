@@ -33,7 +33,8 @@ body{;
 
 /*main*/
 
-main div div tr th {
+#mon_cursus {
+    display:block;
     border:1px dashed black;;
 }
 
