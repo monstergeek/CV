@@ -34,7 +34,7 @@ body{;
 /*main*/
 
 #mon_cursus {
-    display:block;
+    display:inline-block;
     border:1px dashed black;;
 }
 
