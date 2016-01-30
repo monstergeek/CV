@@ -33,11 +33,24 @@ body{;
 
 /*main*/
 
-#mon_cursus {
-    display:inline-block;
-    border:1px dashed black;;
+.mon_cursus {
+    display:inline-block;color:grey;font-size:15px;
+    width:26%;padding-left:20px;margin:5px;
+    background-image:url(http://www.abeautifulsite.net/wp-content/uploads/2014/08/congruent-pentagon-outline-550x233.png);
 }
-
+#avant{
+    border:5px outset gold;
+    
+    font-family:Helvetica;font-weight:bold;
+}
+#ambition{
+    border:5px ridge black;
+    font-family:Helvetica;font-weight:bold;
+}
+#et_avant{
+    border:5px inset silver;
+    font-family:Helvetica;font-weight:bold;
+}
 /*footer*/
 
 footer p{
